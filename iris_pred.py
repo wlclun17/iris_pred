@@ -2,9 +2,9 @@ import streamlit as st
 import joblib
 
 #載入封裝好的model(還原)
-svm_clf = joblib.load("14_project/svm_clf_model.joblib")
-knn_clf = joblib.load("14_project/knn_clf_model.joblib")
-rf_clf = joblib.load("14_project/rf_clf_model.joblib")
+svm_clf = joblib.load("svm_clf_model.joblib")
+knn_clf = joblib.load("knn_clf_model.joblib")
+rf_clf = joblib.load("rf_clf_model.joblib")
 
 st.title("鳶尾花品種預測")
 
